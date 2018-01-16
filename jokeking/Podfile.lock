@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (1.1.0)
+  - Alamofire (4.6.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - mailgun (1.0.3):
+    - AFNetworking (~> 1.1.0)
+  - ObjectMapper (3.1.0)
+  - Parse (1.15.3):
+    - Bolts/Tasks (~> 1.8)
+  - SwiftMailgun (1.0.1):
+    - Alamofire
+    - ObjectMapper
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.1.0)
+  - Bolts
+  - mailgun
+  - Parse
+  - SwiftMailgun
+
+SPEC CHECKSUMS:
+  AFNetworking: e6427e782b25a2289d909960df8ef41358b3277c
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  mailgun: 17290deea4db24050dd03ca59cd7385d508904b3
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Parse: cdc0f1f975ee8be0409e66f21b05df4ae067047c
+  SwiftMailgun: 311a28057e0ced2dbcfbc8320e4aa282511877d2
+
+PODFILE CHECKSUM: c28df3acf08d0f468655e1bd272731ce982a4bdd
+
+COCOAPODS: 1.3.1

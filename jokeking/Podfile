@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target 'jokeking' do
+    pod 'Parse'
+    pod 'Bolts'
+    pod 'AFNetworking', '~>1.1.0'
+    pod 'mailgun'
+    pod 'SwiftMailgun' 
+end
